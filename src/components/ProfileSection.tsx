@@ -20,49 +20,49 @@ const ProfileSection: React.FC<ProfileSectionProps> = () => {
         </div>
         
         <h1 className="text-4xl md:text-6xl font-bold mb-3 text-portfolio-dark animate-fade-in">
-          Your Name
+          Rami Daood
         </h1>
         
-        <h2 className="text-xl md:text-2xl font-medium mb-6 text-portfolio-dark-yellow animate-fade-in">
-          Web Developer
+        <h2 className="text-xl md:text-2xl font-medium mb-4 text-portfolio-dark-yellow animate-fade-in">
+          Information Systems Student
         </h2>
         
-        <p className="text-lg max-w-lg mb-10 text-portfolio-dark opacity-80 animate-fade-in">
-          I create modern, responsive web applications with a focus on user experience and performance.
+        <p className="text-lg max-w-lg mb-8 text-portfolio-dark opacity-80 animate-fade-in">
+          Ambitious engineering student seeking to apply software development and problem-solving skills in innovative projects.
         </p>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 animate-fade-in">
-          <Link to="/about">
+        <div className="flex flex-col space-y-4 w-64 animate-fade-in">
+          <Link to="/about" className="w-full">
             <Button 
-              className="w-36 bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium rounded-full"
+              className="w-full bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium rounded-full py-6 text-lg"
             >
               About Me
             </Button>
           </Link>
-          <Link to="/projects">
+          <Link to="/projects" className="w-full">
             <Button 
-              className="w-36 bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium rounded-full"
+              className="w-full bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium rounded-full py-6 text-lg"
             >
               Projects
             </Button>
           </Link>
-          <Link to="/skills">
+          <Link to="/skills" className="w-full">
             <Button 
-              className="w-36 bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium rounded-full"
+              className="w-full bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium rounded-full py-6 text-lg"
             >
               Skills
             </Button>
           </Link>
-          <Link to="/work">
+          <Link to="/work" className="w-full">
             <Button 
-              className="w-36 bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium rounded-full"
+              className="w-full bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium rounded-full py-6 text-lg"
             >
               Work
             </Button>
           </Link>
-          <Link to="/education">
+          <Link to="/education" className="w-full">
             <Button 
-              className="w-36 bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium rounded-full"
+              className="w-full bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium rounded-full py-6 text-lg"
             >
               Education
             </Button>
