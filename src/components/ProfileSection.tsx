@@ -1,15 +1,13 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowDown } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
-interface ProfileSectionProps {
-  onExploreClick: () => void;
-}
+interface ProfileSectionProps {}
 
-const ProfileSection: React.FC<ProfileSectionProps> = ({ onExploreClick }) => {
+const ProfileSection: React.FC<ProfileSectionProps> = () => {
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section className="h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-portfolio-super-light-yellow opacity-70 z-0"></div>
       
       <div className="section-container relative z-10 flex flex-col items-center justify-center text-center">
@@ -33,13 +31,43 @@ const ProfileSection: React.FC<ProfileSectionProps> = ({ onExploreClick }) => {
           I create modern, responsive web applications with a focus on user experience and performance.
         </p>
         
-        <Button 
-          onClick={onExploreClick}
-          className="bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium px-8 py-6 rounded-full flex items-center gap-2 animate-fade-in"
-        >
-          Explore My Work
-          <ArrowDown size={18} />
-        </Button>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 animate-fade-in">
+          <Link to="/about">
+            <Button 
+              className="w-36 bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium rounded-full"
+            >
+              About Me
+            </Button>
+          </Link>
+          <Link to="/projects">
+            <Button 
+              className="w-36 bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium rounded-full"
+            >
+              Projects
+            </Button>
+          </Link>
+          <Link to="/skills">
+            <Button 
+              className="w-36 bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium rounded-full"
+            >
+              Skills
+            </Button>
+          </Link>
+          <Link to="/work">
+            <Button 
+              className="w-36 bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium rounded-full"
+            >
+              Work
+            </Button>
+          </Link>
+          <Link to="/education">
+            <Button 
+              className="w-36 bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium rounded-full"
+            >
+              Education
+            </Button>
+          </Link>
+        </div>
       </div>
     </section>
   );
