@@ -5,30 +5,21 @@ import { BookOpen } from 'lucide-react';
 const education = [
   {
     id: 1,
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "2014 - 2016",
-    location: "Stanford, CA",
-    description: "Specialized in Human-Computer Interaction and Web Technologies. Completed thesis on responsive design patterns for mobile applications.",
-    courses: ["Advanced Algorithms", "Human-Computer Interaction", "Web Systems Architecture", "Data Visualization"]
+    degree: "Information Systems",
+    institution: "University of Haifa",
+    duration: "October 2022 - Present",
+    location: "Haifa, Israel",
+    description: "Currently pursuing a degree in Information Systems with a GPA of 85.",
+    courses: ["Data Structures and Algorithms (84)", "Object-Oriented Programming (94)", "Discrete Mathematics (100)", "Operating Systems (100)", "Databases (93)", "BigData (94)", "Software Engineering (88)"]
   },
   {
     id: 2,
-    degree: "Bachelor of Science in Computer Science",
-    institution: "University of Washington",
-    duration: "2010 - 2014",
-    location: "Seattle, WA",
-    description: "Graduated with honors. Focused on software development and database management systems.",
-    courses: ["Data Structures", "Database Systems", "Object-Oriented Programming", "Web Development"]
-  },
-  {
-    id: 3,
-    degree: "Web Development Bootcamp",
-    institution: "Coding Academy",
-    duration: "Summer 2013",
-    location: "Online",
-    description: "Intensive 12-week program covering full-stack web development technologies and best practices.",
-    courses: ["HTML/CSS", "JavaScript", "Node.js", "React Fundamentals"]
+    degree: "Linux Bootcamp",
+    institution: "Intensive Training Program",
+    duration: "June 2024 - July 2024",
+    location: "Israel",
+    description: "Completed a comprehensive Linux bootcamp providing a solid foundation in Linux fundamentals, Git for version control, and essential libraries.",
+    courses: ["Linux Commands", "File Management", "Shell Scripting", "Git Workflows", "System Administration"]
   }
 ];
 

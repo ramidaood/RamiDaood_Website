@@ -6,30 +6,63 @@ import { ExternalLink, Github } from 'lucide-react';
 const projects = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description: "A full-featured e-commerce platform with product listings, cart functionality, and payment processing.",
+    title: "RayBan-Meta Object Detection AI",
+    description: "Working on integrating AI detection model into the Ray-Ban meta Smart Glasses to help the blind and visually impaired navigate on a day-to-day basis.",
     image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+    technologies: ["AI", "Object Detection", "Smart Glasses", "Accessibility"],
     liveLink: "#",
-    githubLink: "#"
+    githubLink: "#",
+    status: "In Progress"
   },
   {
     id: 2,
-    title: "Portfolio Website",
-    description: "A responsive portfolio website to showcase projects and skills with a modern UI design.",
+    title: "Educational WebApp",
+    description: "Leading the development of an Educational WebApp that aims to help high school students prepare for finals using REACT.",
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    technologies: ["React", "Education", "Web Development"],
     liveLink: "#",
-    githubLink: "#"
+    githubLink: "#",
+    status: "In Progress"
   },
   {
     id: 3,
-    title: "Task Management App",
-    description: "A productivity application for organizing tasks, setting deadlines, and tracking progress.",
+    title: "Hotel Management System",
+    description: "Developed a system for managing hotel reservations and resources using Java, implementing tiered access levels for staff roles.",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80",
-    technologies: ["Vue.js", "Firebase", "Vuetify"],
+    technologies: ["Java", "Database Management", "User Access Control"],
     liveLink: "#",
-    githubLink: "#"
+    githubLink: "#",
+    status: "Completed"
+  },
+  {
+    id: 4,
+    title: "Broadcast Viewership Tracker",
+    description: "Created a system using Java and AccessDB to track and analyze viewing habits of households, with features for adding and modifying data through XML files.",
+    image: "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?auto=format&fit=crop&q=80",
+    technologies: ["Java", "AccessDB", "XML", "Data Analysis"],
+    liveLink: "#",
+    githubLink: "#",
+    status: "Completed"
+  },
+  {
+    id: 5,
+    title: "Machine Learning: Laptop Condition and Price Prediction",
+    description: "Developed and implemented custom decision tree and random forest algorithms to predict laptop conditions and prices.",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80",
+    technologies: ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
+    liveLink: "#",
+    githubLink: "#",
+    status: "Completed"
+  },
+  {
+    id: 6,
+    title: "Appointment App for Businesses",
+    description: "Building an App for Businesses to set up their own page for setting appointments and meetings.",
+    image: "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&q=80",
+    technologies: ["Mobile Development", "Business Solutions", "Scheduling"],
+    liveLink: "#",
+    githubLink: "#",
+    status: "In Progress"
   }
 ];
 
@@ -51,6 +84,14 @@ const ProjectsSection = () => {
               </div>
               
               <h3 className="text-xl font-semibold mb-2 text-portfolio-dark">{project.title}</h3>
+              
+              <div className="mb-2">
+                <span className={`px-2 py-1 rounded text-xs font-medium ${
+                  project.status === "Completed" ? "bg-green-100 text-green-800" : "bg-yellow-100 text-yellow-800"
+                }`}>
+                  {project.status}
+                </span>
+              </div>
               
               <p className="text-gray-600 mb-4 flex-grow">{project.description}</p>
               
@@ -79,12 +120,6 @@ const ProjectsSection = () => {
               </div>
             </div>
           ))}
-        </div>
-        
-        <div className="text-center mt-12">
-          <Button className="bg-portfolio-yellow hover:bg-portfolio-dark-yellow text-portfolio-dark font-medium px-6 py-2 rounded-full">
-            View All Projects
-          </Button>
         </div>
       </div>
     </section>

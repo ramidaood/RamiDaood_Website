@@ -5,41 +5,28 @@ import { Briefcase } from 'lucide-react';
 const workExperience = [
   {
     id: 1,
-    position: "Senior Frontend Developer",
-    company: "Tech Solutions Inc.",
-    duration: "Jan 2021 - Present",
-    location: "San Francisco, CA",
+    position: "Tier 3 AI Training Engineer",
+    company: "Outlier",
+    duration: "October 2024 - Present",
+    location: "Israel",
     description: [
-      "Led a team of 5 developers to build and maintain responsive web applications",
-      "Implemented modern frontend architecture using React and TypeScript",
-      "Reduced load times by 40% through code optimization and lazy loading",
-      "Mentored junior developers and conducted code reviews"
+      "Advanced Model Training: Led efforts in fine-tuning and optimizing machine learning models for complex datasets, ensuring high accuracy and robustness.",
+      "Data Annotation Oversight: Supervised and enhanced data labeling processes to improve dataset quality, leveraging automation tools to streamline workflows.",
+      "Problem Resolution: Addressed escalated issues in model performance and dataset inconsistencies, collaborating with cross-functional teams to deliver scalable solutions."
     ]
   },
   {
     id: 2,
-    position: "Web Developer",
-    company: "Digital Innovations",
-    duration: "Mar 2018 - Dec 2020",
-    location: "Seattle, WA",
+    position: "Software Developer",
+    company: "KiwiApps Ltd",
+    duration: "July 2023 - July 2024",
+    location: "Israel",
     description: [
-      "Developed and maintained multiple client websites using JavaScript frameworks",
-      "Created responsive designs with CSS/SASS that improved mobile user experience",
-      "Integrated RESTful APIs and managed state with Redux",
-      "Collaborated with designers to implement UI/UX improvements"
-    ]
-  },
-  {
-    id: 3,
-    position: "Junior Developer",
-    company: "StartUp Vision",
-    duration: "Jun 2016 - Feb 2018",
-    location: "Portland, OR",
-    description: [
-      "Built responsive websites for small business clients",
-      "Implemented UI components using HTML, CSS, and JavaScript",
-      "Assisted with backend development using Node.js and Express",
-      "Participated in agile development processes"
+      "Developed and maintained software using Java and Spring Boot architecture.",
+      "Worked as an outsourced developer, closely collaborating with clients, taking ownership of tasks through Jira, and adapting to new technologies as needed to complete assignments.",
+      "Contributed to an application designed to assist elderly users in improving their balance through training videos, dynamically assembled based on user needs and performance.",
+      "Implemented a system to store, arrange, and retrieve exercise videos, each split into five segments and concatenated based on predefined rules.",
+      "Built a rating-based algorithm that adjusted the difficulty of exercises based on user performance."
     ]
   }
 ];

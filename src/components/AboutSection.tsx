@@ -23,11 +23,11 @@ const AboutSection = () => {
           
           <div>
             <p className="text-lg mb-6 leading-relaxed text-portfolio-dark">
-              Hello! I'm a passionate web developer with expertise in creating modern, responsive web applications. With a strong foundation in both frontend and backend technologies, I enjoy bringing creative ideas to life.
+              Ambitious engineering student with a strong foundation in software development and problem-solving, seeking a student position to apply my skills in a practical setting and contribute to innovative projects.
             </p>
             
             <p className="text-lg mb-8 leading-relaxed text-portfolio-dark">
-              My journey in web development started 5 years ago, and since then, I've worked on numerous projects ranging from small business websites to complex enterprise applications. I'm dedicated to writing clean, maintainable code and constantly learning new technologies.
+              Currently studying Information Systems at the University of Haifa with a GPA of 85, I have experience in both software development and AI training. I'm passionate about creating innovative solutions and continuously expanding my technical skills.
             </p>
             
             <div className="flex flex-wrap gap-4 mb-8">
@@ -35,10 +35,10 @@ const AboutSection = () => {
                 💻 Web Development
               </div>
               <div className="bg-portfolio-light-yellow px-4 py-2 rounded-full text-portfolio-dark font-medium">
-                🎨 UI/UX Design
+                📱 Mobile Development
               </div>
               <div className="bg-portfolio-light-yellow px-4 py-2 rounded-full text-portfolio-dark font-medium">
-                📱 Mobile Development
+                🤖 Machine Learning
               </div>
             </div>
             

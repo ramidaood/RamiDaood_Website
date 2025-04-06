@@ -3,33 +3,33 @@ import React from 'react';
 
 const skillCategories = [
   {
-    category: "Frontend Development",
+    category: "Web Development",
     skills: [
-      { name: "HTML5", proficiency: 95 },
-      { name: "CSS3", proficiency: 90 },
-      { name: "JavaScript", proficiency: 85 },
-      { name: "React", proficiency: 80 },
-      { name: "Tailwind CSS", proficiency: 85 }
-    ]
-  },
-  {
-    category: "Backend Development",
-    skills: [
+      { name: "HTML/CSS/JavaScript", proficiency: 90 },
+      { name: "React", proficiency: 85 },
+      { name: "Tailwind", proficiency: 80 },
       { name: "Node.js", proficiency: 75 },
-      { name: "Express", proficiency: 70 },
-      { name: "MongoDB", proficiency: 65 },
-      { name: "SQL", proficiency: 60 },
-      { name: "Firebase", proficiency: 75 }
+      { name: "TypeScript", proficiency: 80 }
     ]
   },
   {
-    category: "Tools & Others",
+    category: "Mobile Development",
     skills: [
-      { name: "Git", proficiency: 80 },
-      { name: "Figma", proficiency: 70 },
-      { name: "Webpack", proficiency: 65 },
-      { name: "Jest", proficiency: 60 },
-      { name: "Docker", proficiency: 55 }
+      { name: "Flutter", proficiency: 75 },
+      { name: "React Native", proficiency: 80 },
+      { name: "TypeScript", proficiency: 80 },
+      { name: "UI/UX Design", proficiency: 70 },
+      { name: "Automation", proficiency: 75 }
+    ]
+  },
+  {
+    category: "Programming & Databases",
+    skills: [
+      { name: "Java", proficiency: 90 },
+      { name: "Python", proficiency: 85 },
+      { name: "C/C++", proficiency: 80 },
+      { name: "SQL/NoSQL", proficiency: 85 },
+      { name: "MongoDB", proficiency: 75 }
     ]
   }
 ];
