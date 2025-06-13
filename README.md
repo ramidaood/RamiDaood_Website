@@ -1,52 +1,52 @@
-# Rami Daood - Software Developer Portfolio
+# RamiDaood_Website
 
-This is my personal portfolio website showcasing my work as a Software Developer.
+A modern, responsive personal portfolio website built with Next.js and Tailwind CSS.
+
+## Features
+
+- 🎨 Modern and clean design
+- 📱 Fully responsive layout
+- ⚡ Fast performance with Next.js
+- 🎯 Interactive UI components
+- 🌈 Custom color scheme
+- 📝 Sections for About, Work Experience, Projects, Education, and Skills
+
+## Tech Stack
+
+- Next.js 14
+- React 18
+- TypeScript
+- Tailwind CSS
+- Lucide Icons
+- Radix UI Components
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository
+1. Clone the repository:
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/yourusername/RamiDaood_Website.git
 ```
 
-2. Install dependencies
+2. Install dependencies:
 ```bash
+cd RamiDaood_Website
 npm install
-# or
-yarn install
 ```
 
-3. Start the development server
+3. Run the development server:
 ```bash
 npm run dev
-# or
-yarn dev
 ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Building for Production
 
-To create a production build:
-
 ```bash
 npm run build
-# or
-yarn build
+npm start
 ```
-
-## Technologies Used
-
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
 
 ## License
 
-This project is licensed under the MIT License.
+MIT License - feel free to use this template for your own portfolio!
