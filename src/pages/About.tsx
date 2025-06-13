@@ -1,13 +1,16 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 import AboutSection from '@/components/AboutSection';
 
 const About = () => {
   return (
     <div className="min-h-screen bg-portfolio-super-light-yellow">
+      <Helmet>
+        <title>About Me | Rami Daood</title>
+      </Helmet>
       <div className="container mx-auto px-4 py-8">
         <Link to="/">
           <Button 
@@ -17,8 +20,6 @@ const About = () => {
             Back to Home
           </Button>
         </Link>
-        
-        <h1 className="text-3xl md:text-4xl font-bold mb-8 text-portfolio-dark">About Me</h1>
         
         <AboutSection />
       </div>
