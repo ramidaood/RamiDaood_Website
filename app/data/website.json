@@ -1,0 +1,193 @@
+{
+    "profile": {
+      "name": "Rami Daood",
+      "title": "Full Stack Engineer",
+      "tagline": "Versatile and ambitious Full Stack Engineer with strong foundations in software engineering, artificial intelligence, and mobile/web development. Experienced in building scalable applications using Next.js, NestJS, and Flutter. Adept at solving complex problems, building real-time systems, and delivering impactful projects for accessibility and business automation.",
+      "contact": {
+        "email": "daoodrami52@gmail.com",
+        "alternateEmail": "ramidaood@gmail.com",
+        "phone": "+972-54-972-0015",
+        "location": "Kfar Yassif, Israel",
+        "website": "www.rami-daood.com",
+        "linkedin": "https://linkedin.com/in/rami-daood-8a5106250",
+        "github": "https://github.com/ramidaood"
+      }
+    },
+    "about": {
+      "summary": "Versatile and ambitious Full Stack Engineer with strong foundations in software engineering, artificial intelligence, and mobile/web development. Currently working with Next.js, NestJS, and Flutter to build scalable, high-performance applications across web and mobile platforms. I'm passionate about creating innovative solutions that make a real impact, whether it's helping visually impaired individuals navigate their surroundings or streamlining business operations through automation.",
+      "highlights": [
+        {
+          "title": "Full Stack Development",
+          "description": "Expert in building scalable web and mobile applications using modern technologies like Next.js, NestJS, and Flutter"
+        },
+        {
+          "title": "Problem Solving",
+          "description": "Adept at solving complex problems and building real-time systems"
+        },
+        {
+          "title": "Project Delivery",
+          "description": "Proven track record of delivering impactful projects for accessibility and business automation"
+        }
+      ]
+    },
+    "skills": {
+      "programmingLanguages": ["Java", "Python", "C/C++", "Dart", "TypeScript"],
+      "webDevelopment": ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind", "Node.js", "NestJS", "Wix Velo", "Webflow"],
+      "mobileDevelopment": ["Flutter", "React Native", "Expo", "Android Studio"],
+      "aiComputerVision": ["YOLOv5", "MiDaS", "OpenCV", "PyTorch", "Pygame", "Scikit-learn"],
+      "dataAutomation": ["SQL", "Advanced SQL", "NoSQL", "AccessDB", "MongoDB", "Supabase", "Firebase", "Make.com"],
+      "toolsPlatforms": ["Git", "Xcode", "VS Code", "Figma", "Jira", "WebSocket", "WhatsApp Business API", "Messenger Integration", "Vercel", "Railway", "AWS", "CI/CD"]
+    },
+    "education": [
+      {
+        "degree": "B.Sc. in Information Systems",
+        "institution": "University of Haifa",
+        "period": "Oct 2022 – Present",
+        "gpa": "85",
+        "relevantCourses": [
+          {
+            "name": "Data Structures & Algorithms",
+            "grade": 84
+          },
+          {
+            "name": "Object-Oriented Programming",
+            "grade": 94
+          },
+          {
+            "name": "Discrete Mathematics",
+            "grade": 100
+          },
+          {
+            "name": "Operating Systems",
+            "grade": 100
+          },
+          {
+            "name": "Databases",
+            "grade": 93
+          },
+          {
+            "name": "Big Data",
+            "grade": 94
+          },
+          {
+            "name": "Software Engineering",
+            "grade": 88
+          },
+          {
+            "name": "Final Project Part 1",
+            "grade": 100
+          }
+        ]
+      },
+      {
+        "degree": "Professional Training",
+        "institution": "Linux Bootcamp",
+        "period": "Jun 2024 – Jul 2024",
+        "description": "Comprehensive training covering Linux shell scripting, command-line tools, Git workflows, and system administration fundamentals."
+      }
+    ],
+    "workExperience": [
+      {
+        "title": "Full Stack Engineer",
+        "company": "iTellU",
+        "period": "Oct 2025 – Present",
+        "responsibilities": [
+          "Working across Frontend, Backend, and Mobile platforms to build scalable, high-performance applications using Next.js, NestJS, and Flutter (Dart)",
+          "Collaborating with cross-functional teams to design seamless user experiences",
+          "Maintaining a unified backend architecture and delivering reliable, production-grade solutions across web and mobile environments"
+        ]
+      },
+      {
+        "title": "Tier 3 AI Training Engineer",
+        "company": "Outlier",
+        "period": "Sep 2024 – Oct 2025",
+        "responsibilities": [
+          "Leading fine-tuning and optimization of machine learning models",
+          "Supervising data annotation pipelines",
+          "Investigating performance issues across AI systems"
+        ]
+      },
+      {
+        "title": "Software Developer",
+        "company": "KiwiApps Ltd",
+        "period": "Jul 2023 – Jul 2024",
+        "responsibilities": [
+          "Developed a video training application for elderly users using Java and Spring Boot",
+          "Implemented a modular system for managing exercise videos",
+          "Built an adaptive difficulty algorithm based on user engagement",
+          "Collaborated with clients using Jira and agile practices"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Dellio",
+        "subtitle": "Intelligent Data Workbench for Database Design, Validation & Learning",
+        "period": "2024 – Present",
+        "description": "AI-assisted data workbench that combines schema design, runnable SQL, diagrams, validation, and guided learning into a single interactive environment. Developed as part of Dell Technologies × Tsofen-Tashbik Full-Stack AI Bootcamp. Features include schema builder & ERD generation, interactive SQL lab, database validation engine, migration preview, image-to-database parsing, speech-to-text SQL input, and auto-graded SQL training exercises.",
+        "technologies": ["React", "TypeScript", "Node.js", "Express", "MongoDB", "PostgreSQL", "SQLite", "OpenAI API", "Monaco Editor", "Mermaid"],
+        "highlights": [
+          "Designed pluggable SQL adapter architecture supporting multiple database engines",
+          "Implemented sandboxed SQL execution with previews and dry-runs",
+          "Built validation engine to detect schema anti-patterns and data issues",
+          "Integrated AI in controlled, opt-in manner for hints and explanations",
+          "Safety-first UX for destructive database actions"
+        ],
+        "projectType": "Product-oriented system · AI-assisted developer tooling · Educational platform",
+        "link": "https://Dellio.rami-daood.com",
+        "status": "Active development · Feature-complete core"
+      },
+      {
+        "title": "Shepsi – לחלום זקנה",
+        "period": "2024 – Present",
+        "description": "Interactive Hebrew-first quiz application built to help students prepare for Hebrew theory-based exams. Features dynamic question flow, persistent progress tracking, and dedicated practice for incorrect answers with full RTL and Hebrew language support. Adopted by ~600 students as a community learning resource.",
+        "technologies": ["React", "TypeScript", "Tailwind CSS", "Vite", "React Router DOM"]
+      },
+      {
+        "title": "AI Smart Glasses for the Visually Impaired",
+        "period": "Jan 2025 – Present",
+        "description": "Designed and integrated AI technologies into smart glasses to help visually impaired individuals navigate their surroundings. Implemented real-time object detection and depth estimation using YOLOv5 and MiDaS models.",
+        "technologies": ["Python", "YOLOv5", "MiDaS", "OpenCV", "Pygame", "Arduino"]
+      },
+      {
+        "title": "درسني – Darsni",
+        "subtitle": "Gamified Educational Platform for Bagrut Exam Preparation",
+        "period": "2024 – Present",
+        "description": "Interactive educational platform that gamifies Bagrut exam preparation through a game-like learning journey. Students progress through courses while earning XP, maintaining streaks, and unlocking achievements. Features video lessons, quizzes, practice materials, student dashboard with progress tracking, and admin panel for content management. Designed with Arabic-first UX and RTL awareness.",
+        "technologies": ["React 18", "TypeScript", "Vite", "Tailwind CSS", "shadcn/ui", "Radix UI", "TanStack Query", "React Router DOM", "Framer Motion", "Recharts"],
+        "highlights": [
+          "Gamified learning system with XP, levels, streaks, and achievements",
+          "Interactive courses with video lessons, quizzes, and practice materials",
+          "Student dashboard with clear progress tracking and performance insights",
+          "Admin panel for managing courses, content, and users",
+          "Arabic-first UX with RTL awareness and responsive design"
+        ],
+        "projectType": "Concept-driven product · Gamified UX · Educational platform",
+        "status": "Prototype / MVP · Actively evolving concept"
+      },
+      {
+        "title": "Appointment App for Businesses",
+        "period": "Mar 2025 – Present",
+        "description": "Created a web application for managing appointments and meetings. Integrated with various calendar services and implemented automated reminders.",
+        "technologies": ["React", "Node.js", "Express", "MongoDB", "WebSocket"]
+      },
+      {
+        "title": "Machine Learning Project: Laptop Condition & Price Prediction",
+        "period": "Mar 2024 – May 2024",
+        "description": "Implemented custom machine learning models to predict laptop conditions and prices based on various features. Achieved high accuracy in predictions.",
+        "technologies": ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib"]
+      },
+      {
+        "title": "Broadcast Viewership Tracker",
+        "period": "Nov 2023 – Jan 2024",
+        "description": "Developed a system to track TV viewership and analyze viewing patterns. Implemented data collection and visualization features.",
+        "technologies": ["Java", "AccessDB", "Swing", "JFreeChart"]
+      },
+      {
+        "title": "Hotel Management System",
+        "period": "Mar 2023 – May 2023",
+        "description": "Designed and implemented a comprehensive hotel management system with features for reservations, room management, and billing.",
+        "technologies": ["Java", "Spring Boot", "MySQL", "Thymeleaf", "Bootstrap"]
+      }
+    ]
+  }
