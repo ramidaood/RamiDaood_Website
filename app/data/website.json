@@ -88,13 +88,25 @@
     ],
     "workExperience": [
       {
+        "title": "Founder & Lead Engineer",
+        "company": "Mslahtk",
+        "period": "Dec 2025 – Present",
+        "responsibilities": [
+          "Founded Mslahtk (mslahtk.ai) — a trilingual (Hebrew · Arabic · English) digital studio for Israeli businesses offering websites, WhatsApp AI assistants, online stores, and booking systems on a fully managed monthly model",
+          "Designed and built the Mslahtk agentic factory: a multi-agent platform with 7+ specialized agents (architect, lead developer, QA, planner, indexers, mission composer) orchestrated by an autonomous mission queue with real-time WebSocket telemetry",
+          "Architected the end-to-end stack — Next.js web, NestJS backend, Prisma + PostgreSQL, Expo/React Native mobile, and an Electron desktop control center (OpenClaw Pro) — and integrated 10+ AI providers (Anthropic Claude, OpenAI GPT, Google Gemini, xAI Grok, Mistral, Meta Llama, DeepSeek, Minimax, Kimi, Cohere, Groq) with per-agent, per-task model routing for capability and cost optimization",
+          "Shipped an 11-phase AI-enriched client intake pipeline with six parallel multi-provider generation endpoints, multi-source URL extraction, idempotent push/pull dispatch, and multi-channel notifications (WhatsApp Business API, email, Telegram, push)",
+          "Lead product, engineering, and go-to-market across Hebrew, Arabic, and English markets — from agent design to production deployment"
+        ]
+      },
+      {
         "title": "Full Stack Engineer",
         "company": "iTellU",
-        "period": "Oct 2025 – Present",
+        "period": "Oct 2025 – May 2026",
         "responsibilities": [
-          "Working across Frontend, Backend, and Mobile platforms to build scalable, high-performance applications using Next.js, NestJS, and Flutter (Dart)",
-          "Collaborating with cross-functional teams to design seamless user experiences",
-          "Maintaining a unified backend architecture and delivering reliable, production-grade solutions across web and mobile environments"
+          "Worked across Frontend, Backend, and Mobile platforms to build scalable, high-performance applications using Next.js, NestJS, and Flutter (Dart)",
+          "Collaborated with cross-functional teams to design seamless user experiences",
+          "Maintained a unified backend architecture and delivered reliable, production-grade solutions across web and mobile environments"
         ]
       },
       {
@@ -121,6 +133,24 @@
     ],
     "projects": [
       {
+        "title": "Mslahtk — Agentic Factory",
+        "subtitle": "Multi-agent platform powering a trilingual digital studio for Israeli businesses",
+        "period": "Dec 2025 – Present",
+        "description": "Founder & Lead Engineer of Mslahtk (mslahtk.ai) — a digital studio that delivers websites, WhatsApp AI assistants, online stores, and booking systems to Israeli businesses in Hebrew, Arabic, and English, all driven by an internal agentic factory. The system combines an 11-phase AI-enriched client intake pipeline, a desktop mission control orchestrator (OpenClaw Pro), and seven specialized agents (Aria architect, Sage lead developer, Echo QA, Hegemony planner, plus indexers and a mission composer) that execute production work autonomously — from spec generation and codebase indexing to implementation, QA, and dispatch.",
+        "technologies": ["Next.js", "NestJS", "React", "TypeScript", "Electron", "Expo / React Native", "Prisma", "PostgreSQL", "SQLite", "Socket.io", "Firebase", "Anthropic Claude", "OpenAI GPT", "Google Gemini", "xAI Grok", "Mistral", "Meta Llama", "DeepSeek", "Minimax", "Kimi (Moonshot)", "Cohere", "Groq", "WhatsApp Business API", "Tree-sitter", "Docker"],
+        "highlights": [
+          "Built a 7-agent orchestration system (architect, developer, QA, planner, indexers, composer) with per-agent model routing across 10+ AI providers — Anthropic Claude, OpenAI GPT, Google Gemini, xAI Grok, Mistral, Meta Llama, DeepSeek, Minimax, Kimi (Moonshot), Cohere, and more",
+          "Designed an autonomous mission queue with priority floats, real-time WebSocket telemetry, and per-mission cost/token tracking across providers",
+          "Shipped an 11-phase intake pipeline with six parallel multi-provider generation endpoints, multi-temperature tuning, URL-based prefill, and per-field confidence scoring",
+          "Wired idempotent push/pull bridge queue dispatch with WhatsApp / email / Telegram fan-out and full audit trail",
+          "Provider-agnostic abstraction lets the factory swap models per agent, per task, or per cost target without code changes",
+          "Founded the company, set product direction, and led engineering across Next.js web, NestJS backend, Expo mobile, and Electron desktop"
+        ],
+        "projectType": "Startup · Multi-agent platform · Production system",
+        "link": "https://mslahtk.ai",
+        "status": "Production · Active development"
+      },
+      {
         "title": "Dellio",
         "subtitle": "Intelligent Data Workbench for Database Design, Validation & Learning",
         "period": "2024 – Present",
@@ -145,7 +175,7 @@
       },
       {
         "title": "AI Smart Glasses for the Visually Impaired",
-        "period": "Jan 2025 – Present",
+        "period": "Dec 2025 – Present",
         "description": "Designed and integrated AI technologies into smart glasses to help visually impaired individuals navigate their surroundings. Implemented real-time object detection and depth estimation using YOLOv5 and MiDaS models.",
         "technologies": ["Python", "YOLOv5", "MiDaS", "OpenCV", "Pygame", "Arduino"]
       },

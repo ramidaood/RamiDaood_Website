@@ -2,13 +2,14 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, Code, CheckCircle, Clock, X, Plus } from 'lucide-react';
+import { ExternalLink, Code, CheckCircle, Clock, X, Plus, Sparkles } from 'lucide-react';
 import BackButton from '../components/BackButton';
 import portfolioData from '../data/website.json';
 
 export default function ProjectsPage() {
   const [showModal, setShowModal] = useState(false);
-  const mainProjects = portfolioData.projects.slice(0, 4);
+  const heroProject = portfolioData.projects[0];
+  const mainProjects = portfolioData.projects.slice(1, 4);
   const additionalProjects = portfolioData.projects.slice(4);
 
   return (
@@ -26,8 +27,104 @@ export default function ProjectsPage() {
           </h2>
           <div className="w-24 h-2 bg-gray-900 mx-auto mb-16 rounded-full"></div>
 
-          {/* Main 4 Projects */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+          {/* Hero Project — Mslahtk */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="relative bg-gray-900 rounded-3xl shadow-2xl overflow-hidden mb-12"
+          >
+            {/* Featured ribbon */}
+            <div className="absolute top-6 right-6 z-10 flex items-center gap-2 bg-yellow-400 text-gray-900 px-4 py-2 rounded-full font-bold text-xs shadow-lg">
+              <Sparkles size={14} />
+              <span>FEATURED VENTURE</span>
+            </div>
+
+            <div className="p-8 md:p-12 grid grid-cols-1 lg:grid-cols-5 gap-10">
+              <div className="lg:col-span-3">
+                <h3 className="text-3xl md:text-5xl font-bold text-yellow-400 mb-3">
+                  {heroProject.title}
+                </h3>
+                {heroProject.subtitle && (
+                  <p className="text-yellow-200 text-base md:text-lg font-medium mb-5">
+                    {heroProject.subtitle}
+                  </p>
+                )}
+
+                <div className="flex flex-wrap items-center gap-3 mb-6">
+                  <div className="flex items-center gap-2 text-sm text-yellow-300">
+                    <Clock size={14} />
+                    <span>{heroProject.period}</span>
+                  </div>
+                  {heroProject.status && (
+                    <span className="px-3 py-1 bg-yellow-400 text-gray-900 rounded-lg text-xs font-bold">
+                      {heroProject.status.split('·')[0].trim()}
+                    </span>
+                  )}
+                  {heroProject.projectType && (
+                    <span className="px-3 py-1 border border-yellow-400/40 text-yellow-200 rounded-lg text-xs font-medium">
+                      {heroProject.projectType.split('·')[0].trim()}
+                    </span>
+                  )}
+                </div>
+
+                <p className="text-yellow-100 leading-relaxed text-base md:text-lg mb-6">
+                  {heroProject.description}
+                </p>
+
+                {heroProject.link && (
+                  <a
+                    href={heroProject.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-3 px-7 py-4 bg-yellow-400 text-gray-900 rounded-xl hover:bg-yellow-300 transition-all duration-300 font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105"
+                  >
+                    <ExternalLink size={22} />
+                    <span>Visit mslahtk.ai</span>
+                  </a>
+                )}
+              </div>
+
+              <div className="lg:col-span-2 flex flex-col">
+                {heroProject.highlights && heroProject.highlights.length > 0 && (
+                  <div className="mb-6">
+                    <h4 className="text-sm font-semibold text-yellow-400 mb-4 flex items-center gap-2">
+                      <CheckCircle size={16} />
+                      Key Highlights
+                    </h4>
+                    <ul className="space-y-3">
+                      {heroProject.highlights.map((highlight, i) => (
+                        <li key={i} className="text-sm text-yellow-200 flex items-start gap-2 leading-relaxed">
+                          <span className="text-yellow-400 mt-1">•</span>
+                          <span>{highlight}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+
+                <div className="mt-auto">
+                  <h4 className="text-sm font-semibold text-yellow-400 mb-3 flex items-center gap-2">
+                    <Code size={16} />
+                    Stack
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {heroProject.technologies.map((tech, i) => (
+                      <span
+                        key={i}
+                        className="px-3 py-1.5 bg-yellow-400 text-gray-900 rounded-lg text-xs font-bold"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Other Featured Projects */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             {mainProjects.map((project, index) => (
               <motion.div
                 key={index}
